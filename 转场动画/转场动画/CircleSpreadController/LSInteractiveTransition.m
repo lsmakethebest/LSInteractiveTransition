@@ -69,6 +69,7 @@
         }
             break;
     }
+    NSLog(@"-----percent:%lf",persent);
     switch (panGesture.state) {
         case UIGestureRecognizerStateBegan:
             //手势开始的时候标记手势状态，并开始相应的事件

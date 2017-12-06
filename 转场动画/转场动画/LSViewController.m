@@ -12,7 +12,7 @@
 
 @interface LSViewController ()<UINavigationControllerDelegate>
 
-@property (weak, nonatomic) IBOutlet UIView *v;
+@property (weak, nonatomic) IBOutlet UIButton *v;
 @property (nonatomic,strong) LSInteractiveTransition* interactiveTransitionPop;
 @property (nonatomic, assign) UINavigationControllerOperation operation;
 
@@ -23,7 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationController.navigationBar.hidden=YES;
-    self.v.layer.cornerRadius=50;
+    self.v.layer.cornerRadius=25;
     self.v.clipsToBounds=YES;
 
     self.navigationController.delegate=self;

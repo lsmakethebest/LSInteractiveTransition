@@ -9,13 +9,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "&#x8f6c;&#x573a;&#x52a8;&#x753b;/LSViewController.m"
-            timestampString = "534248031.597274"
+            filePath = "&#x8f6c;&#x573a;&#x52a8;&#x753b;/CircleSpreadController/LSCircleSpreadTransition.m"
+            timestampString = "534252138.233974"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "-navigationController:animationControllerForOperation:fromViewController:toViewController:"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "-popAnimation:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x8f6c;&#x573a;&#x52a8;&#x753b;/LSViewController.m"
-            timestampString = "534248031.597416"
+            timestampString = "534252138.234337"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "48"
@@ -38,48 +38,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "&#x8f6c;&#x573a;&#x52a8;&#x753b;/CircleSpreadController/LSInteractiveTransition.m"
-            timestampString = "534248031.597474"
+            filePath = "&#x8f6c;&#x573a;&#x52a8;&#x753b;/LSViewController.m"
+            timestampString = "534252138.234388"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
-            landmarkName = "-handleGesture:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x8f6c;&#x573a;&#x52a8;&#x753b;/CircleSpreadController/LSInteractiveTransition.m"
-            timestampString = "534248070.746155"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "90"
-            endingLineNumber = "90"
-            landmarkName = "-handleGesture:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x8f6c;&#x573a;&#x52a8;&#x753b;/CircleSpreadController/LSInteractiveTransition.m"
-            timestampString = "534248071.363062"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
-            landmarkName = "-handleGesture:"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "-navigationController:animationControllerForOperation:fromViewController:toViewController:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,20 +21,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XKa-gk-WAW">
-                                <rect key="frame" x="100" y="100" width="100" height="100"/>
-                                <color key="backgroundColor" red="0.1450980392" green="0.45882352939999999" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="Z2E-zH-7Iv"/>
-                                    <constraint firstAttribute="width" constant="100" id="lQ7-N9-3Zq"/>
-                                </constraints>
-                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kgl-EV-Ypx">
-                                <rect key="frame" x="137" y="390" width="100" height="40"/>
+                                <rect key="frame" x="40" y="40" width="50" height="50"/>
                                 <color key="backgroundColor" red="0.65163845486111116" green="0.75086805555555558" blue="0.68161349826388884" alpha="0.56694135273972601" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="26R-1P-452"/>
-                                    <constraint firstAttribute="width" constant="100" id="CRM-Fs-vhK"/>
+                                    <constraint firstAttribute="height" constant="50" id="8AB-X8-K2y"/>
+                                    <constraint firstAttribute="width" constant="50" id="CRM-Fs-vhK"/>
                                 </constraints>
                                 <state key="normal" title="push"/>
                                 <connections>
@@ -45,16 +36,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="kgl-EV-Ypx" firstAttribute="top" secondItem="XKa-gk-WAW" secondAttribute="bottom" constant="190" id="10r-Vt-zTz"/>
-                            <constraint firstItem="XKa-gk-WAW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="6aM-CH-oGo"/>
-                            <constraint firstItem="XKa-gk-WAW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="100" id="Ilp-2Q-eS2"/>
-                            <constraint firstItem="kgl-EV-Ypx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ebf-Jw-aB0"/>
+                            <constraint firstItem="kgl-EV-Ypx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="376-F3-brJ"/>
+                            <constraint firstItem="kgl-EV-Ypx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="40" id="Sxp-Vx-zcM"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="gwf-wA-z56"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <connections>
-                        <outlet property="v" destination="XKa-gk-WAW" id="Vjf-gH-Lj3"/>
+                        <outlet property="v" destination="kgl-EV-Ypx" id="hXv-GY-wwM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
